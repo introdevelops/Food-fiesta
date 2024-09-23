@@ -100,7 +100,7 @@ const Offers = () => {
         className="w-full text-left lg:pb-6 lg:px-12 md:pb-6 md:px-12 mt-4 font-black lg:text-2xl md:text-2xl text-xl tracking-tight  text-red-700"
         style={{ wordSpacing: 3.5 }}
       >
-        Restaurants with online food delivery in Agra
+        Restaurants with online food delivery in Delhi
       </span>
       <div className="w-full flex justify-between items-center lg:-ml-6 lg:px-16 md:px-16 lg:my-1 md:my-2 my-4">
         <div className="flex justify-between items-center">
