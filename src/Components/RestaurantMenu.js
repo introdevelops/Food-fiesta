@@ -26,7 +26,7 @@ const RestaurantMenu = () => {
           <span className={linksCss}>Home</span>
         </Link>
         <span className={linksCss}>/</span>
-        <span className={linksCss}>Agra</span>
+        <span className={linksCss}>Delhi</span>
         <span className={linksCss}>/</span>
         <span className="lg:text-[10px] md:text-[10px] text-[8px] text-gray-700 font-bold pr-1">
           {restInfo.name}

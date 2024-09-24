@@ -96,13 +96,14 @@ const ItemCategory = ({ item ,inCart}) => {
           </div>
         )}
         <button
-          className="rounded-xl bg-slate-900 text-white font-semibold lg:px-7 text-sm lg:text-base lg:py-[6px] md:px-7 md:py-[6px] px-4 py-[3px] "
+          className="rounded-xl bg-slate-700 text-white font-semibold lg:px-7 text-sm lg:text-base lg:py-[6px] md:px-7 md:py-[6px] px-4 py-[3px] active:bg-gray-600 hover:bg-gray-900 "
           onClick={() => handleAddItem(items)}
         >
           Add
         </button>
         {cartItems.length!=0 && inCart && <button
-          className="rounded-xl bg-red-500 text-white font-semibold lg:px-7 text-sm lg:text-base lg:py-[6px] md:px-7 md:py-[6px] px-4 py-[3px]"
+          className="rounded-xl bg-red-500 text-white font-semibold lg:px-7 text-sm lg:text-base lg:py-[6px] md:px-7 md:py-[6px] px-4 py-[3px] 
+          active:bg-red-600 hover:bg-red-900"
           onClick={() => handleDeleteItem(items?.card?.info?.id)}
         >
           Delete

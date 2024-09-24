@@ -2,7 +2,7 @@ import helpImage from "../Images/helpImage.png"
 
 const Help = () => {
     return (
-        <div className="flex justify-start items-center gap-2 flex-col my-32 ">
+        <div className="flex justify-start items-center gap-2 flex-col my-36  ">
             <div><span className="lg:text-5xl md:text-3xl text-2xl py-4 md:py-3 lg:py-4 text-red-500 font-bold">Help & Support</span></div>
         <div className="flex w-12/12 md:px-16 px-4 lg:px-20 justify-center md:gap-6 gap-4 lg:gap-8 items-center flex-col lg:flex-row">
             <div className="w-5/12 -mt-56 mr-10">

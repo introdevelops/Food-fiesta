@@ -49,7 +49,7 @@ const MidCarousal = () => {
           )}
         </div>
 
-        <div className="slider__content md:pt-3  pt-2">
+        <div className="slider__content md:pt-3  pt-2 pl-3">
           {carausalData?.map((rest) => (
            
             <CarousalCard key={rest?.id} restData={rest} />
